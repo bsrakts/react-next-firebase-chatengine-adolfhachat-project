@@ -10,13 +10,13 @@ export default function Page(props: ChatProps) {
   return (
     <div style={{ height: "100vh" }}>
       <button
-        style={{ position: "absolute", top: "0px", left: "0px" }}
+        style={{ position: "absolute", bottom: "20px", left: "70px" , padding: "10px 20px", color: "white", background:"rgb(24, 144, 255)", border: "1px",}}
         onClick={() => signOut(auth)}
       >
         Sign Out
       </button>
       <PrettyChatWindow
-        projectId="dd624cae-6882-4aaa-ac59-359f97972aba"
+        projectId="bb2c09b7-1e46-4447-aeb9-0cdd073a2fe0"
         username={props.user.email || ""}
         secret={props.user.uid}
         style={{ height: "100%" }}

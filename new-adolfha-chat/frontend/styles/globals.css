@@ -6,7 +6,7 @@ body {
 .page {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(247,247,248);
+  background:rgb(221, 220, 253);
   text-align: center;
   display: table-cell;
   vertical-align: middle;     
@@ -18,17 +18,47 @@ body {
   padding-bottom: 12px;
 }
 .text {
-  padding-bottom: 12px;
+  padding-bottom: 2.5rem;
+  font-size:3.6rem;
+  color:#1034d5;
+  font-weight:700;
 }
+.text-middle {
+  padding-bottom: 5rem;
+  font-size:1.6rem;
+}
+
 .button {
-  background-color: #10a37f;
+  background-color: #1034d5;
   border: none;
-  padding: .5rem .75rem;
+  padding: 0.75rem 1.5rem;
   color: white;
   font-size: .875rem;
   border-radius: .25rem;
   cursor: pointer;
+  margin-top:3rem;
+  margin-right:1rem;
 }
 .button:hover {
-  background-color: #10886a;
+  background-color: #0a0b0b;
+  transition: 1s ease;
+}
+
+.ce-chat-list{
+  background-color: rgb(27 28 32) !important;
+  overflow:hidden !important;
+  overflow-y:scroll;
+}
+
+.ce-chat-feed{
+  background-color: rgb(27 28 32) !important;
+}
+
+.ce-message-file{
+  background-color: #292b34 !important;
+}
+
+.ce-message-list{
+  overflow:hidden !important;
+  background-color:transparent;
 }

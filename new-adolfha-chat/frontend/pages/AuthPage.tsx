@@ -9,9 +9,9 @@ export default function AuthPage() {
   return (
     <div className="page">
       <div className="logo">👋 💬 🤖 </div>
-      <div className="text">Welcome to ChatRCE</div>
-      <div className="text" style={{ paddingBottom: "16px" }}>
-        Log in with your account to continue
+      <div className="text">Welcome to AdolfhaChat</div>
+      <div className="text-middle" style={{ paddingBottom: "16px" }}>
+        Log in / Sign Up with your Google account! :)
       </div>
       <button className="button" onClick={onClick}>
         Log In
