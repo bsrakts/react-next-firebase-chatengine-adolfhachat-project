@@ -6,7 +6,7 @@ body {
 .page {
   width: 100vw;
   height: 100vh;
-  background:rgb(221, 220, 253);
+  background: rgb(233 208 170 / 52%);
   text-align: center;
   display: table-cell;
   vertical-align: middle;     
@@ -20,20 +20,28 @@ body {
 .text {
   padding-bottom: 2.5rem;
   font-size:3.6rem;
-  color:#1034d5;
+  color:#0c34e7;
   font-weight:700;
 }
 .text-middle {
   padding-bottom: 5rem;
   font-size:1.6rem;
+  font-weight:600;
+}
+
+.text-middle-info {
+  padding-bottom: 5rem;
+  font-size:1rem;
+  font-weight:400;
 }
 
 .button {
-  background-color: #1034d5;
+  background-color: #e206e6;
   border: none;
   padding: 0.75rem 1.5rem;
   color: white;
   font-size: .875rem;
+  font-weight:600;
   border-radius: .25rem;
   cursor: pointer;
   margin-top:3rem;
@@ -46,8 +54,6 @@ body {
 
 .ce-chat-list{
   background-color: rgb(27 28 32) !important;
-  overflow:hidden !important;
-  overflow-y:scroll;
 }
 
 .ce-chat-feed{
@@ -59,6 +65,47 @@ body {
 }
 
 .ce-message-list{
-  overflow:hidden !important;
   background-color:transparent;
 }
+
+/* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #2e0be0 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #141313;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #0a5ff2;
+    border-radius: 0px;
+    border: 0px solid #ffffff;
+  }
+
+  .github-info{
+    position:absolute;
+    right:3rem;
+    bottom:3rem;
+    padding:10px;
+    background: rgba(0, 34, 255, 0.939);
+    border-radius:10px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .github-info:hover{
+    padding:15px;
+    background:#fb13e4;
+    border-radius:50px;
+    transition: .4s ease-in-out;
+  }
+  
+
+
